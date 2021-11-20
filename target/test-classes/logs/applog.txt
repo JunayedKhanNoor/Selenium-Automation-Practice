@@ -1,0 +1,2 @@
+INFO    2021-11-14 08:46:12,182 [main] testcases.TestLogs  - Hello
+ERROR   2021-11-14 08:46:12,183 [main] testcases.TestLogs  - Error
