@@ -42,7 +42,7 @@ public class TestFindingElements {
 		
 		WebElement btn = driver.findElement(By.id("submit-button"));
 		btn.click();
-		
+		// explicit wait
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"login-form\"]/div[1]/p")));
 		
